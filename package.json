@@ -1,0 +1,35 @@
+{
+  "name": "@weka/eslint-config",
+  "version": "1.0.0",
+  "description": "Weka shared ESLint configuration",
+  "license": "MIT",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./flat": "./flat.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": ["eslint", "eslintconfig", "weka"],
+  "engines": { "node": ">=16.14" },
+  "peerDependencies": {
+    "eslint": "^8.34.0 || ^9.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "5.60.1",
+    "@weka/eslint-plugin-weka": "https://github.com/weka/eslint-plugin-weka",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.8.4"
+  }
+}
