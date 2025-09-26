@@ -76,6 +76,6 @@ module.exports = {
     curly: 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    '@weka/weka/no-empty-strings': 'error'
+    '@weka/weka/no-empty-strings': 'warn'
   }
 }

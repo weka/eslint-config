@@ -1,6 +1,6 @@
 {
   "name": "@weka/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Weka shared ESLint configuration",
   "license": "MIT",
   "main": "index.js",
