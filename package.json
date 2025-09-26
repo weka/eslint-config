@@ -8,6 +8,10 @@
     ".": "./index.js",
     "./flat": "./flat.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weka/eslint-config"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
