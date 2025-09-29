@@ -30,4 +30,3 @@ export default config
 ## Notes
 - Includes React, TypeScript, a11y, import, prettier, react-hooks, promise, and unused-imports rules.
 - Includes `@weka/eslint-plugin-weka` and enables `@weka/weka/no-empty-strings`.
-- Only `eslint` is a peer dependency; all plugins are bundled.
