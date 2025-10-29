@@ -6,15 +6,21 @@ Shared ESLint configuration for Weka projects.
 
 ```bash
 yarn add -D @weka/eslint-config
-# or
-npm i -D @weka/eslint-config
+```
+
+```bash add config dependencies
+yarn add -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser @weka/eslint-plugin-weka eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-babel eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-unused-imports prettier
 ```
 
 ## Usage (Classic .eslintrc)
 
 ```json
 {
-  "extends": ["@weka/eslint-config"]
+  "extends": ["@weka/eslint-config"],
+  // to override
+  "rules": {
+    "rule-name": "override value"
+  }
 }
 ```
 
@@ -26,8 +32,3 @@ npm i -D @weka/eslint-config
 import config from '@weka/eslint-config/flat'
 export default config
 ```
-
-## Notes
-- Includes React, TypeScript, a11y, import, prettier, react-hooks, promise, and unused-imports rules.
-- Includes `@weka/eslint-plugin-weka` and enables `@weka/weka/no-empty-strings`.
-- Only `eslint` is a peer dependency; all plugins are bundled.
