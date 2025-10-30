@@ -32,3 +32,7 @@ yarn add -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser @w
 import config from '@weka/eslint-config/flat'
 export default config
 ```
+
+## Publish new version
+
+You have to create a new release, and on each release publishing of new version will happen automatically.
